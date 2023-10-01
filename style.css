@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Raleway", sans-serif;
-  padding: 20px;
+  padding: 0px;
   font-weight: 600;
   margin: 20px;
 }
@@ -34,4 +34,25 @@ body {
   .bold {
     font-size: 12px;
   }
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.nav-bar {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+
+.nav-bar li {
+  padding: 10px;
 }
